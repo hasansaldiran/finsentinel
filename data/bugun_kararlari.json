@@ -1,0 +1,768 @@
+{
+  "2026-04-15": {
+    "kod": "GWIND",
+    "ad": "Galata Wind Enerji",
+    "karar": "AL",
+    "giris": 27.239999771118164,
+    "stop": 25.33,
+    "hedef": 53.12,
+    "alpha": 115.0,
+    "pot": 95.0,
+    "zaman": "2026-04-15T23:05:21.506634"
+  },
+  "2026-04-16": {
+    "kod": "GWIND",
+    "ad": "Galata Wind Enerji",
+    "karar": "AL",
+    "giris": 27.24,
+    "stop": 25.33,
+    "hedef": 53.12,
+    "alpha": 115.0,
+    "pot": 95.0,
+    "zaman": "2026-04-16T00:00:27.719920"
+  },
+  "2026-04-17": {
+    "kod": "KONTR",
+    "ad": "KONTR",
+    "karar": "AL",
+    "giris": 11.93,
+    "stop": 11.09,
+    "hedef": 13.12,
+    "alpha": 70.7,
+    "pot": 10.0,
+    "zaman": "2026-04-17T09:58:25.368541"
+  },
+  "2026-04-20": {
+    "kod": "IZFAS",
+    "ad": "IZFAS",
+    "karar": "AL",
+    "giris": 72.35,
+    "stop": 67.29,
+    "hedef": 79.58,
+    "alpha": 75.1,
+    "pot": 10.0,
+    "zaman": "2026-04-20T09:57:55.447368"
+  },
+  "2026-04-21": {
+    "kod": "TKNSA",
+    "ad": "TKNSA",
+    "karar": "AL",
+    "giris": 26.62,
+    "stop": 24.76,
+    "hedef": 27.95,
+    "alpha": 94.5,
+    "pot": 5.0,
+    "zaman": "2026-04-21T08:50:15.259385"
+  },
+  "2026-04-22": {
+    "kod": "EGPRO",
+    "ad": "EGPRO",
+    "karar": "AL",
+    "giris": 45.46,
+    "stop": 42.28,
+    "hedef": 50.01,
+    "alpha": 75.4,
+    "pot": 10.0,
+    "zaman": "2026-04-22T09:58:03.331949"
+  },
+  "2026-04-23": {
+    "kod": "PKART",
+    "ad": "PKART",
+    "karar": "AL",
+    "giris": 105.4,
+    "stop": 98.02,
+    "hedef": 110.67,
+    "alpha": 92.2,
+    "pot": 5.0,
+    "zaman": "2026-04-23T08:14:46.900474"
+  },
+  "2026-04-24": {
+    "kod": "PKART",
+    "ad": "PKART",
+    "karar": "AL",
+    "giris": 105.4,
+    "stop": 98.02,
+    "hedef": 115.94,
+    "alpha": 72.2,
+    "pot": 10.0,
+    "zaman": "2026-04-24T08:46:27.863601"
+  },
+  "2026-04-26": {
+    "kod": "PKART",
+    "ad": "PKART",
+    "karar": "AL",
+    "giris": 115.9,
+    "stop": 107.79,
+    "hedef": 127.49,
+    "alpha": 73.3,
+    "pot": 10.0,
+    "zaman": "2026-04-26T00:01:42.992945",
+    "liste": [
+      {
+        "kod": "PKART",
+        "ad": "PKART",
+        "alpha": 73.3,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "PASEU",
+        "ad": "PASEU",
+        "alpha": 70.6,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "HRKET",
+        "ad": "HRKET",
+        "alpha": 69.2,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "ARDYZ",
+        "ad": "ARDYZ",
+        "alpha": 67.8,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "IHLGM",
+        "ad": "IHLGM",
+        "alpha": 66.7,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "DESPC",
+        "ad": "DESPC",
+        "alpha": 66.5,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "PENGD",
+        "ad": "PENGD",
+        "alpha": 64.9,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "SEKUR",
+        "ad": "SEKUR",
+        "alpha": 61.1,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "EDATA",
+        "ad": "EDATA",
+        "alpha": 60.2,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "MAGEN",
+        "ad": "MAGEN",
+        "alpha": 58.1,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      }
+    ]
+  },
+  "2026-04-27": {
+    "kod": "PKART",
+    "ad": "PKART",
+    "karar": "AL",
+    "giris": 115.9,
+    "stop": 107.79,
+    "hedef": 127.49,
+    "alpha": 73.3,
+    "pot": 10.0,
+    "zaman": "2026-04-27T08:49:30.536105",
+    "liste": [
+      {
+        "kod": "PKART",
+        "ad": "PKART",
+        "alpha": 73.3,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "PASEU",
+        "ad": "PASEU",
+        "alpha": 70.6,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "HRKET",
+        "ad": "HRKET",
+        "alpha": 69.2,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "ARDYZ",
+        "ad": "ARDYZ",
+        "alpha": 67.8,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "IHLGM",
+        "ad": "IHLGM",
+        "alpha": 66.7,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "DESPC",
+        "ad": "DESPC",
+        "alpha": 66.5,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "PENGD",
+        "ad": "PENGD",
+        "alpha": 64.9,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "SEKUR",
+        "ad": "SEKUR",
+        "alpha": 61.1,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "EDATA",
+        "ad": "EDATA",
+        "alpha": 60.2,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "MAGEN",
+        "ad": "MAGEN",
+        "alpha": 58.1,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      }
+    ]
+  },
+  "2026-04-28": {
+    "kod": "KLSYN",
+    "ad": "KLSYN",
+    "karar": "AL",
+    "giris": 12.9,
+    "stop": 12.0,
+    "hedef": 14.19,
+    "alpha": 77.0,
+    "pot": 10.0,
+    "zaman": "2026-04-28T09:02:05.995289",
+    "liste": [
+      {
+        "kod": "KLSYN",
+        "ad": "KLSYN",
+        "alpha": 77.0,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "HOROZ",
+        "ad": "HOROZ",
+        "alpha": 74.1,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "SELEC",
+        "ad": "SELEC",
+        "alpha": 73.5,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "DYOBY",
+        "ad": "DYOBY",
+        "alpha": 70.9,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "ARDYZ",
+        "ad": "ARDYZ",
+        "alpha": 66.7,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "EUPWR",
+        "ad": "EUPWR",
+        "alpha": 63.4,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "GESAN",
+        "ad": "GESAN",
+        "alpha": 59.5,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "DMSAS",
+        "ad": "DMSAS",
+        "alpha": 57.5,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "YEOTK",
+        "ad": "YEOTK",
+        "alpha": 56.8,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "CATES",
+        "ad": "CATES",
+        "alpha": 56.4,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      }
+    ]
+  },
+  "2026-04-29": {
+    "kod": "SAYAS",
+    "ad": "SAYAS",
+    "karar": "AL",
+    "giris": 50.7,
+    "stop": 47.15,
+    "hedef": 55.77,
+    "alpha": 73.8,
+    "pot": 10.0,
+    "zaman": "2026-04-29T10:01:37.966932",
+    "liste": [
+      {
+        "kod": "SAYAS",
+        "ad": "SAYAS",
+        "alpha": 73.8,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "RODRG",
+        "ad": "RODRG",
+        "alpha": 70.8,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "KRDMB",
+        "ad": "KRDMB",
+        "alpha": 68.5,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "ARASE",
+        "ad": "ARASE",
+        "alpha": 67.7,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "HOROZ",
+        "ad": "HOROZ",
+        "alpha": 62.5,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "KARSN",
+        "ad": "KARSN",
+        "alpha": 61.7,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "ZEDUR",
+        "ad": "ZEDUR",
+        "alpha": 60.7,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "TDGYO",
+        "ad": "TDGYO",
+        "alpha": 58.4,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "DYOBY",
+        "ad": "DYOBY",
+        "alpha": 55.7,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "OBASE",
+        "ad": "OBASE",
+        "alpha": 55.1,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      }
+    ]
+  },
+  "2026-05-05": {
+    "kod": "DGATE",
+    "ad": "DGATE",
+    "karar": "AL",
+    "giris": 95.0,
+    "stop": 88.35,
+    "hedef": 104.5,
+    "alpha": 76.9,
+    "pot": 10.0,
+    "zaman": "2026-05-05T07:28:27.455183",
+    "liste": [
+      {
+        "kod": "DGATE",
+        "ad": "DGATE",
+        "alpha": 76.9,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "CELHA",
+        "ad": "CELHA",
+        "alpha": 75.5,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "TNZTP",
+        "ad": "TNZTP",
+        "alpha": 72.2,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "ARDYZ",
+        "ad": "ARDYZ",
+        "alpha": 72.0,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "KRDMA",
+        "ad": "KRDMA",
+        "alpha": 71.0,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "KRDMB",
+        "ad": "KRDMB",
+        "alpha": 70.7,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "TARKM",
+        "ad": "TARKM",
+        "alpha": 70.3,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "BESTE",
+        "ad": "BESTE",
+        "alpha": 67.9,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "YEOTK",
+        "ad": "YEOTK",
+        "alpha": 65.1,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "ATATP",
+        "ad": "ATATP",
+        "alpha": 63.1,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      }
+    ]
+  },
+  "2026-05-06": {
+    "kod": "KRDMA",
+    "ad": "KRDMA",
+    "karar": "AL",
+    "giris": 41.5,
+    "stop": 38.59,
+    "hedef": 45.65,
+    "alpha": 74.3,
+    "pot": 10.0,
+    "zaman": "2026-05-06T08:53:05.053171",
+    "liste": [
+      {
+        "kod": "KRDMA",
+        "ad": "KRDMA",
+        "alpha": 74.3,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "PENTA",
+        "ad": "PENTA",
+        "alpha": 71.7,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "YEOTK",
+        "ad": "YEOTK",
+        "alpha": 70.9,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "TARKM",
+        "ad": "TARKM",
+        "alpha": 67.2,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "BORSK",
+        "ad": "BORSK",
+        "alpha": 67.0,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "NTGAZ",
+        "ad": "NTGAZ",
+        "alpha": 66.5,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "PETUN",
+        "ad": "PETUN",
+        "alpha": 65.3,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "BRLSM",
+        "ad": "BRLSM",
+        "alpha": 65.0,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "NETAS",
+        "ad": "NETAS",
+        "alpha": 63.5,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      },
+      {
+        "kod": "EMPAE",
+        "ad": "EMPAE",
+        "alpha": 62.6,
+        "pot": 10.0,
+        "fk": null,
+        "smart": null,
+        "katilim": true,
+        "giris_fiyat": null
+      }
+    ]
+  }
+}
