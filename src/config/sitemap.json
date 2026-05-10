@@ -1,0 +1,17 @@
+{
+  "menu": [
+    {"id":"home","title":"Ana Sayfa","path":"/"},
+    {"id":"markets","title":"Piyasalar","path":"/markets"},
+    {"id":"analytics","title":"Analizler","path":"/analytics"},
+    {"id":"emlak","title":"Emlak","path":"/emlak","children":[
+      {"id":"emlak_index","title":"Emlak Endeksi","path":"/emlak/endeksi","tabs":["Genel Endeks","Raporlar","Haberler","Sözlük","Yorumlar"]},
+      {"id":"emlak_news","title":"Emlak Haberleri","path":"/emlak/haberler"},
+      {"id":"emlak_glossary","title":"Emlak Sözlüğü","path":"/emlak/sozluk"},
+      {"id":"emlak_invest","title":"Yatırım Önerileri","path":"/emlak/yatirim"},
+      {"id":"emlak_regional","title":"Bölgesel Analiz","path":"/emlak/bolgesel"}
+    ]},
+    {"id":"portfolio","title":"Portföy","path":"/portfolio"},
+    {"id":"alerts","title":"Bildirimler","path":"/alerts"},
+    {"id":"settings","title":"Ayarlar","path":"/settings"}
+  ]
+}
