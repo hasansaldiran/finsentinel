@@ -1,0 +1,68 @@
+# FinSentinel - Gerekli Kütüphaneler
+# pip install -r requirements.txt
+
+# === Dashboard ===
+streamlit>=1.35.0
+streamlit-autorefresh>=1.0.1
+
+# === Grafik ===
+plotly>=5.20.0
+mplfinance>=0.12.10b0
+matplotlib>=3.8.0
+
+# === Veri Çekimi ===
+yfinance>=0.2.38
+pandas>=2.2.0
+numpy>=1.26.0
+requests>=2.31.0
+httpx>=0.27.0
+feedparser>=6.0.11       # RSS haber beslemeleri
+newspaper3k>=0.2.8       # Haber içerik çekimi
+beautifulsoup4>=4.12.0   # Web scraping (KAP vb.)
+lxml>=5.1.0
+
+# === TEFAS Fon Verisi ===
+tefas-crawler>=0.5.0     # TEFAS fon tarihsel veri
+borsapy>=0.1.0           # BIST, TEFAS, KAP, Forex — kapsamlı Türk piyasaları kütüphanesi
+html5lib>=1.1            # HTML parse (web scraping için)
+tvdatafeed-enhanced>=2.2.0  # TradingView OHLCV (BIST:XK030/XKTUM gibi yfinance'siz endeksler)
+
+# === TCMB / Ekonomik Veri ===
+pandas-datareader>=0.10.0
+
+# === Kripto ===
+ccxt>=4.3.0              # 100+ kripto borsa desteği
+
+# === Teknik Analiz ===
+pandas-ta>=0.3.14b       # RSI, MACD, Bollinger vb.
+
+# === Zamanlama ===
+apscheduler>=3.10.4
+
+# === Veritabanı / Cache ===
+sqlalchemy>=2.0.0
+redis>=5.0.0             # Opsiyonel, varsa kullan
+aioredis>=2.0.0          # Opsiyonel
+
+# === AI / ML ===
+anthropic>=0.28.0        # Claude API
+scikit-learn>=1.4.0
+prophet>=1.1.5           # Zaman serisi tahmini (opsiyonel, ağır)
+
+# === Yardımcı ===
+python-dotenv>=1.0.0
+pydantic>=2.7.0
+loguru>=0.7.2
+pytz>=2024.1
+python-dateutil>=2.9.0
+openpyxl>=3.1.2          # Excel export
+jinja2>=3.1.4            # Rapor şablonları
+
+# === Massive Market Data & Apify ===
+apify-client>=1.7.0          # Apify Python SDK (actor çalıştırma, dataset okuma)
+
+# === Bildirim (Telegram) ===
+python-telegram-bot>=21.3
+
+# === Canlı Veri (WebSocket) ===
+websocket-client>=1.8.0   # Binance WS server-side thread (core/live_feed.py)
