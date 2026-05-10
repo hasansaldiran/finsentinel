@@ -1,11 +1,17 @@
 # 📊 FinSentinel — AI-Powered Financial Intelligence Platform
 
 > Türkiye piyasalarına odaklı, yapay zeka destekli kapsamlı finansal izleme ve analiz platformu.
-> Python · Streamlit · Google Gemini AI · TCMB EVDS API · yfinance · CoinGecko
+> Built with Python · Streamlit · Google Gemini AI · TCMB EVDS API · yfinance · TEFAS
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io)
-[![Gemini](https://img.shields.io/badge/Google-Gemini%20AI-4285F4?style=flat&logo=google&logoColor=white)](https://aistudio.google.com)
+[![License](https://img.shields.io/badge/License-Personal%20Use-lightgrey)](LICENSE)
+
+---
+
+## 🖼️ Ekran Görüntüleri
+
+> *Dashboard ekran görüntüleri yakında eklenecek.*
 
 ---
 
@@ -17,14 +23,15 @@
 | 🏦 **BIST Analizi** | Hisse senedi detay, teknik göstergeler (RSI, MACD, Bollinger) | ✅ |
 | 💱 **Forex / Pariteler** | USD/TRY, EUR/TRY ve dünya pariteleri | ✅ |
 | 🪙 **Kripto** | CoinGecko entegrasyonu, top 100 + özel takip listesi | ✅ |
-| 🥇 **Emtia** | Altın, gümüş, petrol gerçek zamanlı | ✅ |
+| 🥇 **Emtia** | Altın, gümüş, petrol, bakır gerçek zamanlı | ✅ |
 | 🌍 **Dünya Borsaları** | NYSE, NASDAQ, DAX, FTSE ve diğerleri | ✅ |
-| 📉 **Teknik Analiz** | SMA, EMA, RSI, MACD, Bollinger Bands, hacim | ✅ |
+| 📉 **Teknik Analiz** | Grafik motoru: SMA, EMA, RSI, MACD, BB, hacim | ✅ |
 | 🏛️ **TCMB Makro** | EVDS API — enflasyon, faiz, rezervler, döviz kuru | ✅ |
 | 📰 **Haberler** | RSS akışları — Borsa İstanbul, Reuters TR | ✅ |
-| 🤖 **AI Asistan** | Google Gemini ile doğal dil finansal analiz | ✅ |
+| 🤖 **AI Asistan** | Google Gemini API ile doğal dil finansal analiz | ✅ |
 | 💼 **Portföy Takip** | Maliyet bazlı P&L, çeşitlendirme analizi | 🔨 |
 | 🔔 **Alarmlar** | Fiyat/gösterge bazlı alarm + Telegram bildirimi | ✅ |
+| 📚 **Eğitim** | Kavram sözlüğü, strateji rehberleri | 🔨 |
 
 ---
 
@@ -32,9 +39,9 @@
 
 ```
 finsentinel/
-├── app.py                    # Streamlit giriş noktası
+├── app.py                    # Ana giriş noktası (Streamlit)
 ├── config/
-│   └── settings.py           # Merkezi konfigürasyon (.env tabanlı)
+│   └── settings.py           # Merkezi konfigürasyon
 ├── core/
 │   ├── db.py                 # SQLite veritabanı katmanı
 │   ├── fetcher.py            # Veri çekici (yfinance, CoinGecko, TCMB EVDS)
@@ -58,55 +65,81 @@ finsentinel/
 ├── utils/
 │   └── ui.py                 # Paylaşılan Plotly grafik bileşenleri
 └── data/
-    └── finsentinel.db         # SQLite (otomatik oluşur, git'e eklenmez)
+    ├── finsentinel.db         # SQLite (otomatik oluşur)
+    └── processed/
 ```
 
 ---
 
 ## 🚀 Kurulum
 
+### Gereksinimler
+- Python 3.10+
+- pip
+
+### 1. Repoyu klonla
 ```bash
 git clone https://github.com/hasansaldiran/finsentinel.git
 cd finsentinel
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-cp .env.example .env
-streamlit run app.py
 ```
 
----
+### 2. Sanal ortam oluştur
+```bash
+python -m venv venv
 
-## 🔑 API Anahtarları
+# Windows
+venv\Scripts\activate
 
-| Servis | Kaynak | Ücret |
-|--------|--------|-------|
-| Google Gemini | [aistudio.google.com](https://aistudio.google.com/app/apikey) | Ücretsiz tier |
-| TCMB EVDS | [evds2.tcmb.gov.tr](https://evds2.tcmb.gov.tr) | Ücretsiz |
-| CoinGecko | [coingecko.com/api](https://www.coingecko.com/api) | Ücretsiz tier |
-| Telegram Bot | @BotFather | Ücretsiz |
+# Linux / macOS
+source venv/bin/activate
+```
 
-> Tüm anahtarlar `.env` dosyasına yazılır — kaynak koda ve git geçmişine **asla** eklenmez.
+### 3. Bağımlılıkları yükle
+```bash
+pip install -r requirements.txt
+```
+
+### 4. API anahtarlarını ayarla
+```bash
+cp .env.example .env
+# .env dosyasını düzenle
+```
+
+| Değişken | Servis | Ücret |
+|----------|--------|-------|
+| `GEMINI_API_KEY` | [Google AI Studio](https://aistudio.google.com) | Ücretsiz tier |
+| `TCMB_API_KEY` | [TCMB EVDS](https://evds2.tcmb.gov.tr) | Ücretsiz |
+| `COINGECKO_API_KEY` | [CoinGecko](https://www.coingecko.com/api) | Ücretsiz tier |
+| `TELEGRAM_BOT_TOKEN` | @BotFather | Ücretsiz |
+
+> **Not:** API anahtarları olmadan da temel özellikler çalışır (`yfinance` + CoinGecko ücretsiz tier).
+
+### 5. Uygulamayı başlat
+```bash
+streamlit run app.py
+```
+Tarayıcıda → `http://localhost:8501`
 
 ---
 
 ## 🛡️ Güvenlik
 
-- `.env` dosyası `.gitignore`'da — tüm gizli anahtarlar orada kalır
-- Şifreler kaynak kodda plaintext değil, SHA-256 hash olarak işlenir
-- Dışarıya açılırken `APP_PASSWORD` ile oturum koruması aktif edilebilir
+- `.env` dosyasını **asla** git'e ekleme — `.gitignore`'da zaten mevcut
+- Dışarıya açarken `APP_PASSWORD` ile şifre koruması aktif et
+- Ngrok / Cloudflare URL'ini yalnızca güvendiğin kişilerle paylaş
 
 ---
 
 ## ⚠️ Yasal Uyarı
 
-Kişisel kullanım ve eğitim amaçlıdır. Sağlanan analizler ve yapay zeka yorumları **yatırım tavsiyesi değildir**.
+Bu platform kişisel kullanım ve eğitim amaçlıdır. Sağlanan analizler ve yapay zeka yorumları **yatırım tavsiyesi değildir**. Yatırım kararlarınızda lisanslı bir finansal danışmana başvurun.
 
 ---
 
 ## 👤 Geliştirici
 
-**Hasan Saldıran** — IT Sistemleri & Güvenlik Uzmanı
+**Hasan Saldıran** — BT Sistemleri & Güvenlik Uzmanı
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hasansaldiran-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/hasansaldiran)
 [![Portfolio](https://img.shields.io/badge/Portfolio-hasansaldiran.github.io-222?style=flat&logo=github)](https://hasansaldiran.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-hasansaldiran-181717?style=flat&logo=github)](https://github.com/hasansaldiran)
