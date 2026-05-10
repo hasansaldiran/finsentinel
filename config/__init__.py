@@ -1,1 +1,1 @@
-# FinSentinel — config package
+# FinSentinel
