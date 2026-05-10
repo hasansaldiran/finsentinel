@@ -1,0 +1,51 @@
+[
+  {
+    "id": "price_up_10pct",
+    "when": {"field": "price_change_12m", "op": ">=", "value": 10},
+    "message": "Piyasa sıcak bir trende gidiyor: 12 aylık fiyat artışı %{price_change_12m:.1f}%.",
+    "kind": "success"
+  },
+  {
+    "id": "stable_3m",
+    "when": {"field": "price_change_3m", "op": ">=", "value": 0},
+    "and": {"field": "price_change_3m_variation", "op": "<=", "value": 0.5},
+    "message": "Bölge 3 aydır istikrarlı ve düşüşsüz — dikkat edilmesi gereken bölge.",
+    "kind": "info"
+  },
+  {
+    "id": "high_volatility",
+    "when": {"field": "volatility", "op": ">", "value": 3.0},
+    "message": "Piyasa dalgalanıyor; dikkatli yatırım yaklaşımı tavsiye edilir.",
+    "kind": "warning"
+  },
+  {
+    "id": "low_supply",
+    "when": {"field": "listing_ratio", "op": "<", "value": 0.6},
+    "message": "Talep güçlü; ilan sayısı ortalamanın altında — fiyat baskısı oluşabilir.",
+    "kind": "success"
+  },
+  {
+    "id": "oversupply",
+    "when": {"field": "listing_ratio", "op": ">", "value": 1.6},
+    "message": "Arz fazlası belirtileri — fiyat baskısı riski yüksek.",
+    "kind": "danger"
+  },
+  {
+    "id": "high_rent_yield",
+    "when": {"field": "rent_yield", "op": ">=", "value": 8.0},
+    "message": "Yüksek kira getirisi: %{rent_yield:.1f}% — yatırım için cazip olabilir.",
+    "kind": "success"
+  },
+  {
+    "id": "price_drop_warning",
+    "when": {"field": "price_change_12m", "op": "<", "value": -5},
+    "message": "Yıllık bazda düşüş var: %{price_change_12m:.1f}% — risk yönetimi önerilir.",
+    "kind": "danger"
+  },
+  {
+    "id": "relative_value_gap",
+    "when": {"field": "price_vs_city_avg_pct", "op": "<=", "value": -12},
+    "message": "Bölge emsal ortalamasının %{price_vs_city_avg_pct:.0f}% altında — değer fırsatı olabilir.",
+    "kind": "info"
+  }
+]
